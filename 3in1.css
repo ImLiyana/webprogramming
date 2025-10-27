@@ -1,0 +1,25 @@
+body {
+  background-color: #ffe8d6;
+}
+
+h1 {  
+  color: teal;
+  text-align: center;
+  font-family: "Lucida Bright", serif;
+}
+
+p {
+  color: #7f5539;
+  font-family: Garamond, serif;
+}
+
+h4 {
+  color: teal;
+  font-size: 20px;
+  font-family: Rockwell, serif;
+}
+
+ol, dl, ul {
+  font-style: italic;
+  color: #7f5539;
+}
