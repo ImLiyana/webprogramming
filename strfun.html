@@ -1,0 +1,53 @@
+<html>
+<head>
+
+<script>
+document.writeln("<h2>String function</h2>")
+
+let s2='Javascript'
+document.writeln(s2,"<br>")
+var s1="Welcome to JS Programming js"
+document.writeln(s1,"<br>")
+document.writeln("Slice() ",s1.slice(0,7),"<br>")
+document.writeln("Slice() ",s1.slice(10),"<br>")//start slicing from 10th index
+document.writeln("Slice() ",s1.slice(-11,-1),"<br>")//Negative index
+
+document.writeln("Substring() ",s1.substring(0,12,),"<br>")//will not accept negative index
+document.writeln("Substr() ",s1.substr(0,10),"<br>")//will accept the negative index
+document.writeln("Replace() ",s1.replace("JS","Java Script"),"<br>")
+
+
+document.writeln(typeof s2,"<br>")
+
+document.writeln("indexof(o)is ",s1.indexOf("o"),"<br>")
+document.writeln("indexof(o)is ",s1.lastIndexOf("o"),"<br>")
+
+var s4=s1.toUpperCase()
+document.writeln(s4,"<br>")
+document.writeln(s4.toLowerCase(),"<br>")
+var s5=" Hello ";
+document.writeln(s5.concat(s1),"<br>")
+document.writeln("Search() ",s1.search("o"),"<br>")//second argument cannot be given in this functions
+
+
+
+document.writeln("<h2>math function</h2>")
+
+
+document.writeln("Value of PI is : ",Math.PI+"<br>")
+document.writeln("Square root of 2 is : ",Math.SQRT2+"<br>")
+
+document.writeln("Log 2 is : ",Math.LN2+"<br>")
+
+document.writeln("Log E to the base 10 is : ",Math.LOG10E+"<br>")
+document.writeln("Minimum of 5, 2 and 1 is : ",Math.min(5,2,1 )+"<br>")
+document.writeln("Maximum of 7,10, 3 and 1 is : ",Math.max(7,10,3,1)+"<br>")
+
+
+document.writeln(Math.exp(3)+"<br>")
+document.writeln("2 to the power 3 is : ",Math.pow(2,3)+"<br>")
+</script>
+</head>
+<body bgcolor="linen">
+</body >
+<html>
